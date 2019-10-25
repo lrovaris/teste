@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96bef065-f962-42d8-8e44-bcbbad68d987" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/testeEcommerce/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/testeEcommerce/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testeEcommerce/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/testeEcommerce/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testeEcommerce/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/testeEcommerce/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testeEcommerce/src/app/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/testeEcommerce/src/app/header/header.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testeEcommerce/src/app/main/main.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/testeEcommerce/src/app/main/main.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testeEcommerce/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/testeEcommerce/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testeEcommerce/src/app/header/side-nav/side-nav.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/testeEcommerce/src/app/header/side-nav/side-nav.component.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,22 +18,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testeEcommerce/src/app/header/side-nav/side-nav.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            <state relative-caret-position="161">
+              <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#nav#1;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#nav#1;n#div#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testeEcommerce/src/app/header/side-nav/side-nav.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -116,15 +103,6 @@
               <item name="header" type="462c0819:PsiDirectoryNode" />
               <item name="side-nav" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="teste" type="b2602c69:ProjectViewProjectNode" />
-              <item name="teste" type="462c0819:PsiDirectoryNode" />
-              <item name="testeEcommerce" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="header" type="462c0819:PsiDirectoryNode" />
-              <item name="top-nav" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -166,7 +144,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4372000" />
+    <option name="totallyTimeSpent" value="4988000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -268,10 +246,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testeEcommerce/src/app/header/side-nav/side-nav.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        <state relative-caret-position="161">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#nav#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#nav#1;n#div#0;n#!!top" expanded="true" />
           </folding>
