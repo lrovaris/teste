@@ -1,0 +1,29 @@
+<div style="width: 400px">
+  <nav>
+    <div class="nav-wrapper grey">
+      <a href="#" class="brand-logo">Logo</a>
+    </div>
+  </nav>
+  <div *ngFor="let item of Items">
+    <div class="col s12 m7">
+      <div class="card horizontal">
+        <div class="card-image">
+          <img src="https://lorempixel.com/120/120/nature/6">
+        </div>
+        <div class="card-stacked">
+          <div class="card-content">
+            <p>{{item.name}}</p>
+            <br>
+            <p>R$: {{item.price}} QNT: 10</p>
+          </div>
+        </div>
+      </div>
+  </div>
+  <nav>
+    <div style="display: flex;
+  align-items: center;
+  justify-content: center;" class="nav-wrapper grey">
+      <a style="letter-spacing: 2px" class="waves-effect waves-light btn">FINALIZAR</a>
+    </div>
+  </nav>
+</div>
