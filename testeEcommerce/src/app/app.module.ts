@@ -28,7 +28,7 @@ import {ToggleBasketService} from "./header/toggle-basket.service";
     TopNavComponent,
     SideNavComponent,
     OnCreateDirective,
-    SubNavComponent
+    SubNavComponent,
   ],
   imports: [
     BrowserModule,

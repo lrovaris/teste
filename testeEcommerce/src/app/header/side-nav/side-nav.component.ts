@@ -1,6 +1,5 @@
-import {Directive, Component, OnInit, Output, EventEmitter, OnDestroy} from '@angular/core';
-import { HostBinding } from '@angular/core';
-import { delay } from 'rxjs/operators'
+import { Component, OnInit, Output, EventEmitter, OnDestroy} from '@angular/core';
+
 import {
   trigger,
   state,
@@ -10,19 +9,7 @@ import {
 } from '@angular/animations';
 
 import { Router} from "@angular/router";
-
-
-import { timer } from 'rxjs';
-import { timeInterval, pluck, take} from 'rxjs/operators';
 import {ToggleBasketService} from "../toggle-basket.service";
-
-interface BeforeOnDestroy {
-  ngxBeforeOnDestroy();
-}
-
-type NgxInstance = BeforeOnDestroy & Object;
-type Descriptor = TypedPropertyDescriptor<Function>;
-type Key = string | symbol;
 
 
 @Component({
@@ -136,9 +123,6 @@ export class SideNavComponent implements OnInit, OnDestroy {
   ngOnDestroy() {
 
   }
-
-
-
 
 
  async ngOnInit() {

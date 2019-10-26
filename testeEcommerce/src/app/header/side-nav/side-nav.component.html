@@ -5,7 +5,9 @@
       <a style=" margin-left: 2rem; font-size: 25px; letter-spacing: 2px" href="#" class="brand-logo">Shopping Basket</a>
     </div>
   </nav>
-  <div (onCreate)="toggle()" [@openClose]="isOpen ? 'open' : 'closed'" style="height: 0%; width: 96%;margin-left: 4%;padding-right: 5%; overflow-y: scroll">
+
+
+  <div (onCreate)="toggle()" [@openClose]="isOpen ? 'open' : 'closed'" style="overflow-y: scroll; overflow-x: hidden; height: 65%; width: 96%;margin-left: 4%;padding-right: 5%;">
     <div *ngFor="let item of Items">
       <ul>
         <li>
@@ -26,6 +28,9 @@
       </ul>
     </div>
   </div>
+
+
+
   <nav style="border-radius: 0px 0px 15px 15px;">
     <div  style="
               border-radius: 0px 0px 15px 15px;
