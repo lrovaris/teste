@@ -11,7 +11,11 @@ import { MainComponent } from './main/main.component';
 import { HomeComponent } from './main/home/home.component';
 import { TopNavComponent } from './header/top-nav/top-nav.component';
 import { SideNavComponent } from './header/side-nav/side-nav.component';
+<<<<<<< HEAD
 import {OnCreateDirective} from "./header/side-nav/onCreate.directive";
+=======
+import { SubNavComponent } from './header/sub-nav/sub-nav.component';
+>>>>>>> Bardi
 
 @NgModule({
   declarations: [
@@ -22,7 +26,11 @@ import {OnCreateDirective} from "./header/side-nav/onCreate.directive";
     HomeComponent,
     TopNavComponent,
     SideNavComponent,
+<<<<<<< HEAD
     OnCreateDirective
+=======
+    SubNavComponent
+>>>>>>> Bardi
   ],
   imports: [
     BrowserModule,
