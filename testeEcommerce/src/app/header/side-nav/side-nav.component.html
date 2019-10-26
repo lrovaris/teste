@@ -5,20 +5,19 @@
       <a style="margin-left: 2rem; font-size: 25px; letter-spacing: 2px" href="#" class="brand-logo">Shopping Basket</a>
     </div>
   </nav>
-  <div style="height: 65%; width: 96%;margin-left: 4%;padding-right: 5%; overflow-y: scroll">
+  <div (onCreate)="toggle()" [@openClose]="isOpen ? 'open' : 'closed'" style="height: 0%; width: 96%;margin-left: 4%;padding-right: 5%; overflow-y: scroll">
     <div *ngFor="let item of Items">
       <ul>
         <li>
-          <div class="col s12 m7">
+          <div (onCreate)="onSUmm(item.price)" class="col s12 m7">
             <div class="card horizontal">
               <div class="card-image">
                 <img src="https://lorempixel.com/120/120/nature/6">
               </div>
               <div class="card-stacked">
                 <div class="card-content">
-                  <p>{{item.name}}</p>
-                  <br>
-                  <p>R$: {{item.price}} QNT: 10</p>
+                  <p style="font-size: 22px">{{item.name}}</p>
+                  <p  style="font-size: 18px">R$: <a style="font-size: 19px;font-weight: bold; color: green">{{item.price}}</a></p>
                 </div>
               </div>
             </div>
@@ -31,8 +30,12 @@
     <div style="display: flex;
   align-items: center;
   justify-content: center;" class="nav-wrapper black">
-      <a style="letter-spacing: 2px" class="white black-text waves-effect waves-light btn">FINALIZAR</a>
+      <a style="letter-spacing: 2px; font-size: 14px;font-weight: bold" class="white black-text waves-effect waves-light btn">CHECKOUT ‏‏‎‎‏‏‎ I‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎‎<a style="font-weight: bolder;font-size: 19px; color: green; margin-right: 1px" class="">U${{total}}0</a></a>
     </div>
   </nav>
 </div>
 
+<div  class="open-close-container">
+  <p>The box is now {{ isOpen ? 'Open' : 'Closed' }}!</p>
+  <button (click)="toggle()">trigger</button>
+</div>
