@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96bef065-f962-42d8-8e44-bcbbad68d987" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/testeEcommerce/src/app/header/side-nav/side-nav.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/testeEcommerce/src/app/header/side-nav/side-nav.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testeEcommerce/src/app/header/side-nav/side-nav.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/testeEcommerce/src/app/header/side-nav/side-nav.component.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,12 +20,32 @@
         <entry file="file://$PROJECT_DIR$/testeEcommerce/src/app/header/side-nav/side-nav.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
-              <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+              <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#nav#1;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#nav#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testeEcommerce/src/app/header/side-nav/side-nav.component.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testeEcommerce/src/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,6 +68,7 @@
         <option value="$PROJECT_DIR$/testeEcommerce/src/app/header/top-nav/top-nav.component.ts" />
         <option value="$PROJECT_DIR$/testeEcommerce/src/app/header/top-nav/top-nav.component.html" />
         <option value="$PROJECT_DIR$/testeEcommerce/src/app/header/side-nav/side-nav.component.ts" />
+        <option value="$PROJECT_DIR$/testeEcommerce/src/app/header/side-nav/side-nav.component.css" />
         <option value="$PROJECT_DIR$/testeEcommerce/src/app/header/side-nav/side-nav.component.html" />
       </list>
     </option>
@@ -144,7 +166,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4988000" />
+    <option name="totallyTimeSpent" value="6484000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -244,13 +266,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testeEcommerce/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testeEcommerce/src/app/header/side-nav/side-nav.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testeEcommerce/src/app/header/side-nav/side-nav.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+          <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#nav#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#nav#1;n#div#0;n#!!top" expanded="true" />
           </folding>
