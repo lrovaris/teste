@@ -1,4 +1,4 @@
-import {Directive, Component, OnInit, Output, EventEmitter } from '@angular/core';
+import {Directive, Component, OnInit, Output, EventEmitter, OnDestroy} from '@angular/core';
 import { HostBinding } from '@angular/core';
 import { delay } from 'rxjs/operators'
 import {
@@ -10,6 +10,20 @@ import {
 } from '@angular/animations';
 
 import { Router} from "@angular/router";
+
+
+import { timer } from 'rxjs';
+import { timeInterval, pluck, take} from 'rxjs/operators';
+import {ToggleBasketService} from "../toggle-basket.service";
+
+interface BeforeOnDestroy {
+  ngxBeforeOnDestroy();
+}
+
+type NgxInstance = BeforeOnDestroy & Object;
+type Descriptor = TypedPropertyDescriptor<Function>;
+type Key = string | symbol;
+
 
 @Component({
   selector: 'app-side-nav',
@@ -43,7 +57,7 @@ import { Router} from "@angular/router";
   styleUrls: ['./side-nav.component.css'],
 
 })
-export class SideNavComponent implements OnInit {
+export class SideNavComponent implements OnInit, OnDestroy {
 
   @Output() onCreate: EventEmitter<any> = new EventEmitter<any>();
 
@@ -109,12 +123,28 @@ export class SideNavComponent implements OnInit {
 
    timeout = ms => new Promise(res => setTimeout(res, ms));
 
-  constructor(private router: Router) { }
+  constructor(
+    private router: Router,
+    private basket: ToggleBasketService
+  ) {
+    basket.fire.subscribe(
+      (onMain) => {
+        this.isOpen = onMain;
+      });
+  }
+
+  ngOnDestroy() {
+
+  }
+
+
+
+
 
  async ngOnInit() {
-await this.timeout(100);
+await this.timeout(1);
 this.toggle();
-await this.timeout(5000);
+await this.timeout(1);
   }
 
 }

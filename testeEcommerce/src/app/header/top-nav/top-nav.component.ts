@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {ToggleBasketService} from "../toggle-basket.service";
 
 @Component({
   selector: 'app-top-nav',
@@ -9,12 +10,17 @@ export class TopNavComponent implements OnInit {
 
   logo = 'Logo.com';
   basketValidator = false;
+  timeout = ms => new Promise(res => setTimeout(res, ms));
 
-  onBasket() {
+ async onBasket() {
+    this.basket.change();
+    if(this.basketValidator == true) {
+      await this.timeout(200);
+    }
     this.basketValidator = !this.basketValidator
   }
 
-  constructor() { }
+  constructor(private basket: ToggleBasketService) { }
 
   ngOnInit() {
   }

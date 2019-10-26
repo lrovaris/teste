@@ -1,8 +1,8 @@
 
 <div class="sideNav" style="width: 300px">
-  <nav>
-    <div class="nav-wrapper black">
-      <a style="margin-left: 2rem; font-size: 25px; letter-spacing: 2px" href="#" class="brand-logo">Shopping Basket</a>
+  <nav style="border-radius: 15px 15px 0px 0px;" class="black">
+    <div style="border-radius: 15px 15px 0px 0px;" class="nav-wrapper black">
+      <a style=" margin-left: 2rem; font-size: 25px; letter-spacing: 2px" href="#" class="brand-logo">Shopping Basket</a>
     </div>
   </nav>
   <div (onCreate)="toggle()" [@openClose]="isOpen ? 'open' : 'closed'" style="height: 0%; width: 96%;margin-left: 4%;padding-right: 5%; overflow-y: scroll">
@@ -10,9 +10,9 @@
       <ul>
         <li>
           <div (onCreate)="onSUmm(item.price)" class="col s12 m7">
-            <div class="card horizontal">
+            <div style="border-left: 2px solid" class="card horizontal">
               <div class="card-image">
-                <img src="https://lorempixel.com/120/120/nature/6">
+                <img style="width: 100px; height: 100px" src="https://cdn.shopify.com/s/files/1/0970/5198/products/amazfit-activity-monitors-amazfit-bip-fitness-smartwatch-3801963233378_grande.png?v=1535913367">
               </div>
               <div class="card-stacked">
                 <div class="card-content">
@@ -26,16 +26,13 @@
       </ul>
     </div>
   </div>
-  <nav>
-    <div style="display: flex;
-  align-items: center;
-  justify-content: center;" class="nav-wrapper black">
-      <a style="letter-spacing: 2px; font-size: 14px;font-weight: bold" class="white black-text waves-effect waves-light btn">CHECKOUT ‏‏‎‎‏‏‎ I‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎‎<a style="font-weight: bolder;font-size: 19px; color: green; margin-right: 1px" class="">U${{total}}0</a></a>
+  <nav style="border-radius: 0px 0px 15px 15px;">
+    <div  style="
+              border-radius: 0px 0px 15px 15px;
+              display: flex;
+              align-items: center;
+              justify-content: center;" class="nav-wrapper black">
+      <a style="border-radius: 15px 15px 15px 15px; letter-spacing: 2px; font-size: 14px;font-weight: bold" class="white black-text waves-effect waves-light btn">CHECKOUT ‏‏‎‎‏‏‎ I‎‎‏‏‎ ‎‏‏‎ ‎‏‏‎‎<a style="font-weight: bolder;font-size: 19px; color: green; margin-right: 1px" class="">U${{total}}0</a></a>
     </div>
   </nav>
-</div>
-
-<div  class="open-close-container">
-  <p>The box is now {{ isOpen ? 'Open' : 'Closed' }}!</p>
-  <button (click)="toggle()">trigger</button>
 </div>

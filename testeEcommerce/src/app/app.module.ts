@@ -15,6 +15,7 @@ import { SideNavComponent } from './header/side-nav/side-nav.component';
 import {OnCreateDirective} from "./header/side-nav/onCreate.directive";
 
 import { SubNavComponent } from './header/sub-nav/sub-nav.component';
+import {ToggleBasketService} from "./header/toggle-basket.service";
 
 
 @NgModule({
@@ -35,7 +36,9 @@ import { SubNavComponent } from './header/sub-nav/sub-nav.component';
     BrowserModule,
     BrowserAnimationsModule
   ],
-  providers: [],
+  providers: [
+    ToggleBasketService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
